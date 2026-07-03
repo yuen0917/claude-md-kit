@@ -1,5 +1,5 @@
 <!--
-這是套用 CLAUDE.template.md 後的完整範例,對象是一個假想專案 BookTrail
+這是套用 templates/CLAUDE.template.md 後的完整範例,對象是一個假想專案 BookTrail
 (Python + FastAPI 的閱讀進度追蹤 API)。實際使用時整份即為專案根目錄的
 CLAUDE.md,不含任何說明註解。全文約 45 行,低於 80 行上限。
 -->

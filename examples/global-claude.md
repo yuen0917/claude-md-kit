@@ -1,5 +1,5 @@
 <!--
-全域 CLAUDE.md 範例(放在 `~/.claude/CLAUDE.md`,即 PLACEMENT_GUIDE.md 的第 1 層)。
+全域 CLAUDE.md 範例(放在 `~/.claude/CLAUDE.md`,即 guides/PLACEMENT_GUIDE.md 的第 1 層)。
 只放「跨所有專案都成立」的個人準則;放進這裡的內容,各專案的 CLAUDE.md 不要再重複。
 同樣適用精簡原則:每行都要通過「刪掉會不會出錯」的測試。
 -->

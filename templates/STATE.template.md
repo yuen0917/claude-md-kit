@@ -1,7 +1,7 @@
 <!--
 docs/STATE.md 範本:專案跨 session 的單一事實來源。
 使用方式:複製到專案的 `docs/STATE.md`,填入內容、刪除本註解。
-讀寫時機:每次任務開工前讀、收工前更新(見 WORKFLOW.md)。
+讀寫時機:每次任務開工前讀、收工前更新(見 guides/WORKFLOW.md)。
 維護原則:
 - 全文保持一頁以內;超過就把「已完成」搬到 docs/archive/STATE-<YYYYMM>.md。
 - 日期一律寫絕對日期(如 2026-07-03),不寫「今天」「上週」。

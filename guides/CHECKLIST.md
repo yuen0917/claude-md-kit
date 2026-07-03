@@ -26,7 +26,7 @@
 - [ ] `docs/STATE.md` 保持一頁內;過期的已完成事項已歸檔到 `docs/archive/`
 
 ## 狀態與安全
-- [ ] `docs/STATE.md` 已建立(可複製 STATE.template.md),CLAUDE.md 有指明讀寫時機
+- [ ] `docs/STATE.md` 已建立(可複製 templates/STATE.template.md),CLAUDE.md 有指明讀寫時機
 - [ ] 沒有任何秘密出現在 CLAUDE.md / rules / docs / 範例程式碼
 - [ ] `.env` 等秘密檔已列入 `.gitignore`
 - [ ] 啟用中的 MCP 為精選(整體佔用 < 約 20k token);能用 Skill 的已改用 Skill

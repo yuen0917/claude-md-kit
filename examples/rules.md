@@ -1,6 +1,6 @@
 # `.claude/rules/` 路徑作用域規則範例
 
-對應 PLACEMENT_GUIDE.md 的第 4 層:每則 rule 是一個獨立 `.md` 檔,
+對應 guides/PLACEMENT_GUIDE.md 的第 4 層:每則 rule 是一個獨立 `.md` 檔,
 frontmatter 的 `globs` 決定「agent 動到哪些檔案時」才載入該規則,
 平時不佔 context。以下兩個範例,實際使用時各自存成一檔。
 

@@ -57,7 +57,7 @@
   只留近期。塞爆的 STATE.md 和塞爆的 CLAUDE.md 一樣會被忽略。
 - 與 Claude Code 內建自動記憶的分工:agent 會自行累積對使用者偏好、環境、工作方式的記憶,
   這些**不必**寫進 STATE.md 或 CLAUDE.md;STATE.md 只記「專案本身」的目標、狀態與決策。
-- 可直接複製的範本:`STATE.template.md`。
+- 可直接複製的範本:`templates/STATE.template.md`。
 
 ## CLAUDE.md 的維護迴圈
 

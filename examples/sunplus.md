@@ -1,13 +1,13 @@
 <!--
 第二份套用範例:基於真實 repo yuen0917/Sunplus_Project(語音降噪模型輕量化,研究型專案)。
-原 repo 的 CLAUDE.md 有 152 行;本範例示範按 PLACEMENT_GUIDE.md 分層瘦身後的結果(本文約 45 行)。
+原 repo 的 CLAUDE.md 有 152 行;本範例示範按 guides/PLACEMENT_GUIDE.md 分層瘦身後的結果(本文約 45 行)。
 
 原內容的去向對照:
-- 工作準則、省 token 規則         → 全域 ~/.claude/CLAUDE.md(見 GLOBAL_CLAUDE.example.md)
+- 工作準則、省 token 規則         → 全域 ~/.claude/CLAUDE.md(見 examples/global-claude.md)
 - 共享 server 安全限制(30+ 行)   → .claude/settings.json 的 permissions.deny + PreToolUse hook
                                     (工具強制勝過文字提醒;原 repo 其實已有 guard_bash.py)
 - 程式碼風格與好壞範例            → black / ruff 已強制,整段刪除
-- 階段計畫表、目前進度、待補規格   → docs/STATE.md(見 STATE.template.md)
+- 階段計畫表、目前進度、待補規格   → docs/STATE.md(見 templates/STATE.template.md)
 - DFNet2 技術細節、FPGA 未來方向   → docs/,需要時再讀
 - 人員名單                        → docs/,agent 用不到
 -->
