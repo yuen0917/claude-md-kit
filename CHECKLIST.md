@@ -20,8 +20,13 @@
 - [ ] 檔案類型綁定的規則放 `.claude/rules/` 並附 glob
 - [ ] 大型文件放 `docs/`,CLAUDE.md 只寫「何時去讀哪份」,沒有 `@` 全文嵌入
 
+## 維護(套用後持續)
+- [ ] agent 重複犯的錯已濃縮成一行加入;從未生效的行已刪除
+- [ ] 每個里程碑重新跑一次本清單(CLAUDE.md 是活文件,見 WORKFLOW.md 維護迴圈)
+- [ ] `docs/STATE.md` 保持一頁內;過期的已完成事項已歸檔到 `docs/archive/`
+
 ## 狀態與安全
-- [ ] `docs/STATE.md` 已建立,CLAUDE.md 有指明讀寫時機
+- [ ] `docs/STATE.md` 已建立(可複製 STATE.template.md),CLAUDE.md 有指明讀寫時機
 - [ ] 沒有任何秘密出現在 CLAUDE.md / rules / docs / 範例程式碼
 - [ ] `.env` 等秘密檔已列入 `.gitignore`
 - [ ] 啟用中的 MCP 為精選(整體佔用 < 約 20k token);能用 Skill 的已改用 Skill

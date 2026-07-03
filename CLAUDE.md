@@ -3,8 +3,9 @@
 CLAUDE.md 通用範本套件:供任何專案複製套用的範本、workflow 與檢核清單。本 repo 的「產品」就是這些 Markdown 文件本身。
 
 ## 檔案職責
-- `CLAUDE.template.md` — 通用範本(含 `<!-- -->` 填寫註解)
-- `EXAMPLE_CLAUDE.md` — 套用後範例(BookTrail 假想專案)
+- `CLAUDE.template.md` / `STATE.template.md` — 可複製範本(含 `<!-- -->` 填寫註解)
+- `EXAMPLE_CLAUDE.md`(BookTrail 假想專案)/ `EXAMPLE_CLAUDE_SUNPLUS.md`(真實專案瘦身示範)— 套用後範例
+- `GLOBAL_CLAUDE.example.md` / `RULES_EXAMPLE.md` — 分層第 1、4 層的範例
 - `WORKFLOW.md` / `PLACEMENT_GUIDE.md` / `CHECKLIST.md` — 配套文件
 - `fable5_claude_md_prompt.md` — 產生本套件的原始 prompt,唯讀,勿修改
 

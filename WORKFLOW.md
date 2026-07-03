@@ -53,8 +53,21 @@
 ```
 
 - 每次任務:開工前讀、收工前更新。日期一律寫絕對日期(2026-07-03),不寫「今天」「上週」。
+- **控制在一頁以內**:已完成事項累積過多時,移到 `docs/archive/STATE-<YYYYMM>.md` 歸檔,
+  只留近期。塞爆的 STATE.md 和塞爆的 CLAUDE.md 一樣會被忽略。
 - 與 Claude Code 內建自動記憶的分工:agent 會自行累積對使用者偏好、環境、工作方式的記憶,
   這些**不必**寫進 STATE.md 或 CLAUDE.md;STATE.md 只記「專案本身」的目標、狀態與決策。
+- 可直接複製的範本:`STATE.template.md`。
+
+## CLAUDE.md 的維護迴圈
+
+CLAUDE.md 是活文件,不是一次寫好的靜態產物:
+
+- **加**:agent 重複犯同一個錯、或同一件事你解釋了兩次 → 濃縮成一行,加進對應區塊。
+- **刪**:某行從未實際影響行為、或指令已失效 → 刪掉。每個里程碑用 `CHECKLIST.md` 重新檢核一次。
+- **降**:根目錄 CLAUDE.md 逼近 80 行時,把子系統專屬內容下放到子目錄 CLAUDE.md 或 `.claude/rules/`。
+- 新專案可先用 `/init` 讓 Claude Code 產生草稿,再用 CHECKLIST.md 修剪——
+  `/init` 的產出通常偏長,照單全收會超標。
 
 ## MCP 與 Skill 的取捨
 
