@@ -1,0 +1,7 @@
+{
+  "name": "claude-md-kit",
+  "description": "CLAUDE.md 通用範本套件:套用範本(/claude-md-apply)、檢核既有檔(/claude-md-check)、瘦身分層(/claude-md-slim)。",
+  "author": {
+    "name": "yuen0917"
+  }
+}

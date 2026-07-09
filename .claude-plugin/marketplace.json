@@ -1,0 +1,15 @@
+{
+  "name": "claude-md-templates",
+  "description": "CLAUDE.md 通用範本套件的發佈目錄:提供 claude-md-kit plugin(套用範本、檢核、瘦身分層)。",
+  "owner": {
+    "name": "yuen0917",
+    "email": "120698419+yuen0917@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "claude-md-kit",
+      "source": "./",
+      "description": "CLAUDE.md 通用範本套件:套用範本、檢核、瘦身分層三個 skills,templates 與 guides 隨 plugin 一起安裝。"
+    }
+  ]
+}
