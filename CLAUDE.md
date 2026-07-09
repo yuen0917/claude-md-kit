@@ -14,6 +14,7 @@ CLAUDE.md 通用範本套件:供任何專案複製套用的範本、workflow 與
 ## 驗證
 - 修改範本或範例後,確認刪除註解後的成品仍在 60–80 行以內。
 - 用 `CHECKLIST.md` 逐項核對被修改的檔案。
+- 動到 `.claude-plugin/` 或 `skills/` 後,跑 `claude plugin validate .` 確認通過(唯一允許的 warning:刻意省略的 version)。
 
 ## 慣例與陷阱
 - 說明文字用繁體中文;技術詞與指令保留英文。

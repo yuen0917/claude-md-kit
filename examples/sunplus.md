@@ -1,6 +1,6 @@
 <!--
 第二份套用範例:基於真實 repo yuen0917/Sunplus_Project(語音降噪模型輕量化,研究型專案)。
-原 repo 的 CLAUDE.md 有 152 行;本範例示範按 guides/PLACEMENT_GUIDE.md 分層瘦身後的結果(本文約 45 行)。
+原 repo 的 CLAUDE.md 有 152 行;本範例示範按 guides/PLACEMENT_GUIDE.md 分層瘦身後的結果(本文約 37 行)。
 
 原內容的去向對照:
 - 工作準則、省 token 規則         → 全域 ~/.claude/CLAUDE.md(見 examples/global-claude.md)

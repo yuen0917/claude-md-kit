@@ -4,7 +4,7 @@
 
 ## 目前目標 / 里程碑
 
-套件已 plugin 化(claude-md-kit),待 push 後在其他專案實際安裝試用,依回饋修訂 skills 與範本。
+plugin(claude-md-kit)已發佈至 GitHub;待在其他機器/專案實際安裝試用,依回饋修訂 skills 與範本。
 
 ## 進行中
 
@@ -12,6 +12,8 @@
 
 ## 已完成(近期,舊的移到 archive)
 
+- 2026-07-09 全專案體檢:修正範例行數宣稱(45→實際 37)、死連結 badge、CLAUDE.md 驗證補 plugin validate。
+- 2026-07-09 plugin 化變更 commit + push(56a7e2f);修正安裝指令 repo 名(CLAUDE_Template→claude-md-kit)。
 - 2026-07-09 README 改寫為對外形式:badges、價值主張開場、Quick Start、skills 情境、設計理念、目錄樹。
 - 2026-07-09 repo plugin 化:`.claude-plugin/`(plugin.json + marketplace.json)+ 三個 skills(claude-md-apply / check / slim),README 與 CLAUDE.md 連動更新。
 - 2026-07-09 補套件自身的 `docs/STATE.md`(dogfooding 跨 session 狀態機制)。
@@ -32,6 +34,8 @@
 
 - 核心文件連動:改範本區塊結構時,`examples/` 兩份範例與 `guides/CHECKLIST.md` 必須同步。
 - `docs/fable5_claude_md_prompt.md` 唯讀,勿修改。
+- 本地資料夾名(CLAUDE_Template)≠ repo 名(claude-md-kit):寫安裝指令等含 repo 名的內容,以 `git remote -v` 為準(2026-07-09 踩過)。
+- 文件中的行數等數字宣稱要實際數過再寫(2026-07-09 修過 5 處「45 行」實為 37 行)。
 
 ## 下一步
 
